@@ -7,3 +7,4 @@
 - **NOTE: ONLY INFORMATION THAT CAN BE CONSIDERED PUBLIC SHOULD BE UPLOADED HERE**
 - Click [here](https://projects.peryton.space) to view the site.
 - Work on the pages you need on a **SEPARATE** branch, and then open a pull request to merge into the main and deploy to production environment.
+- When creating a page, copy the [template](template.html) page to a new ```*.html``` page, and then modify as required.

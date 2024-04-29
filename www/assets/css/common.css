@@ -1,0 +1,36 @@
+* {
+    background-color: #0d0d0d;
+    color: white;
+}
+
+.title {
+    font-family: SpaceMono-Bold;
+}
+
+.text {
+    font-family: SpaceMono-Regular;
+}
+
+.bold {
+    font-family: SpaceMono-Bold;
+}
+
+.bolditalic {
+    font-family: SpaceMono-BoldItalic;
+}
+
+.italic {
+    font-family: SpaceMono-Italic;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

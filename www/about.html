@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- Redirect to WIP Page -->
+        <!-- <meta http-equiv="refresh" content="0; URL=/wip.html" /> -->
+
+        <!-- Link to common and font CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/fonts.css"/>
+
+        <!-- Setup page favicon.ico -->
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico"/>
+
+        <!-- JQuery Script (Needed for navigation bar loading) -->
+        <script src="/assets/script/jquery-1.10.2.js"></script> 
+    </head>
+    <body class="text">
+        <!-- Placeholder element for nav bar -->
+        <div id="nav-placeholder"></div>
+
+        <!-- Script using JQuery to populate nav bar -->
+        <script>
+            $.get("/topnav.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        </script> 
+
+        <!-- Add page content below here -->
+        <h1 class="title">About Peryton Space</h1>
+        <p class="text">Peryton is the University of Surrey's UKSEDS Branch!</p>
+        <ul>
+            <li>Mach 23 1.5Km Champions</li>
+            <li>Currently Competing in Mach 24</li>
+            <li>NRC</li>
+            <li>SDC</li>
+            <li>Working closely with the University of Surrey <a href="https://surreyears.co.uk">Electronics and Amateur Radio Society</a></li>
+        </ul>
+    </body>
+</html>
