@@ -1,6 +1,5 @@
 html {
     background-color: #0d0d0d;
-    overflow: auto;
 }
 
 * {
@@ -9,18 +8,22 @@ html {
     font-style: normal;
 }
 
-html, body, div, iframe {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    border: none;
+.peryton-logo {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-iframe 
-{
- display: block; 
- width: 100%; 
- border: none; 
- overflow-y: auto; 
- overflow-x: hidden;
+.text {
+    font-family: SpaceMono-Regular;
+}
+
+.title {
+    font-family: SpaceMono-Bold;
+}
+
+.center {
+    text-align: center;
 }
