@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8" />
@@ -7,13 +6,15 @@
         <link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/fonts.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico"/>
-        <script src="/assets/script/jquery-1.10.2.js"/>
+        <script src="/assets/script/jquery-1.10.2.js"></script> 
     </head>
-    <div id="navbar"></div>
-    <script>
-        $.get("topnav.html", function(data){
-            $("#navbar").replaceWith(data);
-        });
-    </script>
-    <p class="title">Title</p>
+    <body>
+        <div id="nav-placeholder"></div>
+        <script>
+            $.get("/topnav.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        </script> 
+        <h1 class="title">Home</h1>
+    </body>
 </html>
