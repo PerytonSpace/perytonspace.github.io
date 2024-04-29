@@ -16,6 +16,14 @@ html {
     margin-right: auto;
 }
 
-.text {
+.title {
+    font-family: SpaceMono-Bold;
+}
+
+.centertext {
     text-align: center;
+}
+
+.bodytext {
+    font-family: SpaceMono-Regular;
 }
