@@ -1,19 +1,28 @@
 @font-face {
     font-family: 'SpaceMono-Bold';
+    font-style: normal;
+    font-weight: bold;
     src: url('/assets/font/SpaceMono-Bold.ttf');
 }
 
 @font-face {
     font-family: 'SpaceMono-BoldItalic';
-    src: url('assets/font/SpaceMono-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+    src: url('/assets/font/SpaceMono-BoldItalic.ttf');
 }
 
 @font-face {
     font-family: 'SpaceMono-Italic';
-    src: url('assets/font/SpaceMono-Italic.ttf');
+    font-style: italic;
+    font-weight: normal;
+    src: url('/assets/font/SpaceMono-Italic.ttf');
 }
 
 @font-face {
     font-family: 'SpaceMono-Regular';
-    src: url('assets/font/SpaceMono-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/font/SpaceMono-Regular.ttf');
 }
+
