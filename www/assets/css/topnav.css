@@ -22,10 +22,17 @@ body {
 }
 
 .topnav a.home {
-  background-color: #ff3e00;
+  background-color: #7d26cd;
   color: white;
+  max-height: 32px;
+  max-width: 32px;
 }
 
 * {
   font-family: SpaceMono-Regular;
+}
+
+.homelogo {
+  height: 32px;
+  width: 32px;
 }
