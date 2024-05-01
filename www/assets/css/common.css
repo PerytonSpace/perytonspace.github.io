@@ -34,3 +34,21 @@
 .right {
     text-align: right;
 }
+
+body {
+    margin-top: 1%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+}
+
+.peryton-color {
+    color: #ff3e00;
+}
+
+.topnav {
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+    height: 5%;
+}
